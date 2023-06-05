@@ -19,8 +19,8 @@ services:
     networks:
       - net
     environment:
-      POSTGRES_USER: sonar
-      POSTGRES_PASSWORD: sonarpasswd
+      POSTGRES_USER: sonarPg
+      POSTGRES_PASSWORD: sonarPgpasswd
     volumes:
       - $PWD/postgres-data:/var/lib/postgresql/data
   sonarqube:
